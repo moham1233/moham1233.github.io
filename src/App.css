@@ -14,7 +14,7 @@
 .Container {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 1rem;
   justify-items: center;
   margin-top: 30%;
 }
