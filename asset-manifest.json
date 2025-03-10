@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/moham1233.github.io/static/css/main.f4543647.css",
-    "main.js": "/moham1233.github.io/static/js/main.81686843.js",
-    "static/js/453.65ae0ccf.chunk.js": "/moham1233.github.io/static/js/453.65ae0ccf.chunk.js",
-    "static/media/JawharaBg.svg": "/moham1233.github.io/static/media/JawharaBg.f06bc6035c9fab647c68.svg",
-    "index.html": "/moham1233.github.io/index.html",
-    "main.f4543647.css.map": "/moham1233.github.io/static/css/main.f4543647.css.map",
-    "main.81686843.js.map": "/moham1233.github.io/static/js/main.81686843.js.map",
-    "453.65ae0ccf.chunk.js.map": "/moham1233.github.io/static/js/453.65ae0ccf.chunk.js.map"
+    "main.css": "/static/css/main.87655e72.css",
+    "main.js": "/static/js/main.d24b97ee.js",
+    "static/js/453.65ae0ccf.chunk.js": "/static/js/453.65ae0ccf.chunk.js",
+    "static/media/JawharaBg.svg": "/static/media/JawharaBg.f06bc6035c9fab647c68.svg",
+    "index.html": "/index.html",
+    "main.87655e72.css.map": "/static/css/main.87655e72.css.map",
+    "main.d24b97ee.js.map": "/static/js/main.d24b97ee.js.map",
+    "453.65ae0ccf.chunk.js.map": "/static/js/453.65ae0ccf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4543647.css",
-    "static/js/main.81686843.js"
+    "static/css/main.87655e72.css",
+    "static/js/main.d24b97ee.js"
   ]
 }
