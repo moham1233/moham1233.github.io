@@ -1,38 +1,84 @@
 .App {
   text-align: center;
+  height: 100vh; /* Ensures the div takes full height of the viewport */
+  background-image: url("../public/JawharaBg.svg"); /* Correct reference from public folder */
+  background-size: cover; /* Makes the background cover the entire area */
+  background-position: center; /* Centers the background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  color: white; /* Ensures the text color contrasts well with the background */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-items: center;
+  margin-top: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ArabicText {
+  font-size: 70px;
+  padding: 0px;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.EnglishText1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  left: 17%;
+  top: 23%;
+  position: absolute;
+  color: #efe5d3;
+}
+
+.EnglishText2 {
+  font-size: 25px;
+  padding: 0p;
+  margin: 0;
+  left: 48%;
+  top: 23%;
+  position: absolute;
+  color: #efe5d3;
+}
+
+.TitleContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 800px) {
+  .ArabicText {
+    font-size: 40px; /* Decrease font size on small screens */
   }
-  to {
-    transform: rotate(360deg);
+  .EnglishText1 {
+    font-size: 15px;
+  }
+  .EnglishText2 {
+    font-size: 15px;
+  }
+  .Container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .ArabicText {
+    font-size: 40px; /* Decrease font size on small screens */
+  }
+  .EnglishText1 {
+    left: 35%;
+    font-size: 15px;
+  }
+  .EnglishText2 {
+    font-size: 15px;
+  }
+  .Container {
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
 }
